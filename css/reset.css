@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img,
+h1, h2, h3 ,h4 ,h5, h6, form, select {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol,li { list-style: none; }
+
+img { border: 0; vertical-align: middle; }
+table { border-collapse: collapse; }
+input,select { vertical-align: middle; }
+button { margin: 0; padding: 0; }
+label { cursor:pointer;}
+
+body {
+    font-size: 13px;
+    line-height: 1.3;
+    color: #929496;
+    font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+li {
+    line-height: 1.9;
+    font-size: 14px;
+    color: #333333 ;
+}
+a {
+    color: #0072b4 ;
+    text-decoration: none;
+}
+a.hover,
+label.hover,
+.jsc-all-check-trigger.hover,
+.jsc-check-label.hover {
+    background-color: #a6a6a6  !important;
+}

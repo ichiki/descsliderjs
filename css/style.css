@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* common */
+body {
+ font-size: 12px;
+ line-height: 1.5; 
+/*  color: #333; */
+  font-family: 'Hiragino Kaku Gothic ProN',Meiryo,'MS PGothic',Sans-serif;
+  margin: 0;
+  min-width: 1200px;
+  max-width: 2000px;
+}
+
+section, header {
+  display: block;
+}
+
+section h2 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;  
+}
+
+.div {
+  display: block;
+}
+
+/* descslider */
+.descslider-wrap {  
+  position: relative;
+  width: 100%;
+}
+
+.descslider-top {
+  width: 100%;
+  height: 320px;
+  position: relative;
+  display: table;
+}
+
+.descslider-top-txt {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.descslider-top p {
+  text-align: center;
+  font-size: 30px;
+  color: block;
+}
+
+.descslider-ttl-img-wrap:before {
+  content: "";
+  background-image: url("../img/exclamation_mark.png");
+  background-repeat: no-repeat;
+  background-size: 21px, 46px;
+  width: 24px;
+  height: 46px;
+  position: absolute;
+  left: 50%;
+  margin-left: -185px;
+  margin-top: 20px;
+  transform: rotate(-15deg);
+}
+
+.descslider-desc-txt {
+  text-align: center;
+  color: #8f9293;
+  font-size: 15px;
+  line-height: 29px
+}
+
+.descslider-dtl-wrap {
+  position: relative;
+}
+
+.descslider-dtl-txt-wrap {
+  position: absolute;
+  height: 300px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  z-index: 11;
+  display: none;
+}
+
+.descslider-dtl-no1 {
+  padding-top: 60px;
+  height: 300px;
+}
+
+.descslider-dtl-no2 {
+  padding-top: 90px;
+  height: 270px;
+}
+
+.descslider-dtl-no3 {
+  padding-top: 110px;
+  height: 250px;
+}
+
+.descslider-dtl-no4 {
+  padding-top: 120px;
+  height: 240px;
+}
+
+.descslider-dtl-txt-right {
+  left: 750px;
+}
+
+.descslider-dtl {
+  height: 360px;
+  width: 100%;
+  display: block;
+}
+
+.descslider-dtl-ttl {
+  font-size: 22px;
+  opacity: 0;
+  text-align: center;
+}
+
+.descslider-dtl-txt {
+  font-size: 14px;
+  opacity: 0;
+  text-align: left;
+  margin-top: 20px !important;
+}
+
+.descslider-dtl-txt-inner {
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.descslider-dtl-txt-inner:nth-child(1) {
+  width: 406px;
+}
+
+.descslider-dtl-txt-inner:nth-child(2) {
+  width: 389px;
+}
+
+.descslider-dtl-txt-inner:nth-child(3) {
+  width: 406px;
+}
+
+.descslider-dtl-txt-inner:nth-child(4) {
+  width: 392px;
+}
+
+.descslider-dtl-left-cover {
+  height: 360px;
+  float: left;
+  z-index: 10;
+  display: block;
+  position: absolute;
+}
+
+.descslider-dtl-right-cover {
+  height: 360px;
+  float: right;
+  z-index: 10;
+  display: block;
+  position:relative;
+}
+
+.bc-pink {
+  background-color: #e3387c;
+}
+
+.bc-blue {
+  background-color: #30b0de;
+}
+
+.bc-green {
+  background-color: #94c533;
+}
+
+.bc-yellow {
+  background-color: #f5b01c;
+}
+
+.descslider-dtl-img-wrap img {
+  width: 750px;
+  height: 360px;
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+.descslider-idc-case {
+  background-image: url("../img/descslider-idc-case.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 840px;
+  display: block;
+  position: relative;
+  margin-top: 0px;
+  background-position: center center;
+}
+
+.descslider-idc-case img {
+  width: 790px;
+  height: 270px;
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  padding-top: 300px;
+}
+
+.descslider-img-no2, .descslider-img-no4 {
+  right: 0px;
+  margin: 0;
+}
+
